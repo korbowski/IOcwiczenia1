@@ -1,0 +1,6 @@
+std::vector<std::unique_ptr<CAlgorithm>> g_Algorithms; // #todo: make the vector const
+std::map<long, size_t> g_mapMenuIDToAlgIndex; // #todo: make the map const
+CAlgManager g_algManager;
+CAVSystem g_avSystem;
+
+Został zastosowany "unique_ptr" oraz wektor.
